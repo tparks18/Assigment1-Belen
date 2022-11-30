@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+.sign-in{
+    font-size: 36px;
+    font-weight: lighter;
+}
+  
+form {
+    border: 1px solid lightgrey;
+    width:400px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left:430px;
+    font-family: sans-serif ;
+    font-weight: lighter;
+    
+}
+
+.button {
+    border: 1px solid;
+    border-color: rgb(145, 80, 15);
+    width: 400px;
+    height: 38px;
+    background-color: rgb(245, 196, 72);
+    color: black;
+    font-size: 16px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+button:hover{
+    background-color: rgb(70, 205, 86);
+    color: rgb(253, 253, 253);
+}
+  
+  .button2 {
+    border: 1px solid;
+    border-color: rgb(176, 174, 174);
+    width: 400px;
+    height: 38px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 1px;
+    margin-left:460px;
+    cursor: pointer;
+}
+
+
+  
+h2 {
+     width: 35%; 
+     text-align: center; 
+     border-bottom: 1px solid #0006; 
+     line-height: 0.1em;
+     margin: 40px  440px;
+     font-weight: 100;
+     font-size: 20px;
+     color: #6b6b6b;
+     font-family: sans-serif;
+    
+} 
+  
+h2 span { 
+      background:#fff; 
+      padding:0 10px; 
+      
+}
+  
+.help{
+    color: rgb(25, 127, 190);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.help:hover{
+    color: rgb(235, 101, 101);
+}
+
+#bx{
+    width: 390px;
+    height: 28px;
+    font-size: 13.5pt;
+    border: 1px solid;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.conditions{
+    margin-left:490px;
+    color:rgb(25, 127, 190);
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+  
+.footer{
+    margin-left:500px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+  
+  
