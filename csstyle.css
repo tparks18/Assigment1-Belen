@@ -1,17 +1,20 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: flex-start;
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 .sign-in{
     font-size: 36px;
     font-weight: lighter;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
 }
   
 form {
@@ -21,9 +24,9 @@ form {
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 20px;
-    margin-left:430px;
     font-family: sans-serif ;
     font-weight: lighter;
+    margin: auto;
     
 }
 
@@ -39,6 +42,7 @@ form {
     cursor: pointer;
     font-family: sans-serif;
     font-weight: 100;
+    
 }
 
 button:hover{
@@ -55,22 +59,31 @@ button:hover{
     color: black;
     font-size: 16px;
     border-radius: 1px;
-    margin-left:460px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
 }
 
+.horizontal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
   
 h2 {
-     width: 35%; 
+     width: 350px; 
      text-align: center; 
      border-bottom: 1px solid #0006; 
      line-height: 0.1em;
-     margin: 40px  440px;
      font-weight: 100;
      font-size: 20px;
      color: #6b6b6b;
      font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 } 
   
@@ -103,7 +116,7 @@ h2 span {
     font-weight: lighter;
 }
 .conditions{
-    margin-left:490px;
+    text-align: center;
     color:rgb(25, 127, 190);
     font-family: sans-serif;
     font-weight: 100;
@@ -111,10 +124,8 @@ h2 span {
 }
   
 .footer{
-    margin-left:500px;
+   text-align: center;
     font-family: sans-serif;
     font-weight: 100;
     font-size: 14px;
 }
-  
-  
